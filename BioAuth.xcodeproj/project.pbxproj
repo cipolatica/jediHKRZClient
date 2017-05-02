@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC9EEBB1EB8337400B74B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEBA1EB8337400B74B59 /* main.m */; };
+		CCC9EEBE1EB8337400B74B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEBD1EB8337400B74B59 /* AppDelegate.m */; };
+		CCC9EEC61EB8337400B74B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC9EEC51EB8337400B74B59 /* Assets.xcassets */; };
+		CCC9EED41EB8337400B74B59 /* BioAuthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EED31EB8337400B74B59 /* BioAuthTests.m */; };
+		CCC9EEDF1EB8337400B74B59 /* BioAuthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEDE1EB8337400B74B59 /* BioAuthUITests.m */; };
+		CCC9EEEF1EB8340400B74B59 /* JHKRZSignOnUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEEE1EB8340400B74B59 /* JHKRZSignOnUIViewController.m */; };
+		CCC9EEF31EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEF21EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC9EED01EB8337400B74B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC9EEAE1EB8337400B74B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC9EEB51EB8337400B74B59;
+			remoteInfo = BioAuth;
+		};
+		CCC9EEDB1EB8337400B74B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC9EEAE1EB8337400B74B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC9EEB51EB8337400B74B59;
+			remoteInfo = BioAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC9EEB61EB8337400B74B59 /* BioAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC9EEBA1EB8337400B74B59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC9EEBC1EB8337400B74B59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCC9EEBD1EB8337400B74B59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCC9EEC51EB8337400B74B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC9EECA1EB8337400B74B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC9EECF1EB8337400B74B59 /* BioAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC9EED31EB8337400B74B59 /* BioAuthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioAuthTests.m; sourceTree = "<group>"; };
+		CCC9EED51EB8337400B74B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC9EEDA1EB8337400B74B59 /* BioAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC9EEDE1EB8337400B74B59 /* BioAuthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BioAuthUITests.m; sourceTree = "<group>"; };
+		CCC9EEE01EB8337400B74B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC9EEED1EB8340400B74B59 /* JHKRZSignOnUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHKRZSignOnUIViewController.h; path = Source/JHKRZSignOnUIViewController.h; sourceTree = "<group>"; };
+		CCC9EEEE1EB8340400B74B59 /* JHKRZSignOnUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHKRZSignOnUIViewController.m; path = Source/JHKRZSignOnUIViewController.m; sourceTree = "<group>"; };
+		CCC9EEF11EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+UIImage_JHKRZ.h"; path = "Source/UIImage+UIImage_JHKRZ.h"; sourceTree = "<group>"; };
+		CCC9EEF21EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+UIImage_JHKRZ.m"; path = "Source/UIImage+UIImage_JHKRZ.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC9EEB31EB8337400B74B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9EECC1EB8337400B74B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9EED71EB8337400B74B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC9EEAD1EB8337400B74B59 = {
+			isa = PBXGroup;
+			children = (
+				CCC9EEB81EB8337400B74B59 /* BioAuth */,
+				CCC9EED21EB8337400B74B59 /* BioAuthTests */,
+				CCC9EEDD1EB8337400B74B59 /* BioAuthUITests */,
+				CCC9EEB71EB8337400B74B59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC9EEB71EB8337400B74B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9EEB61EB8337400B74B59 /* BioAuth.app */,
+				CCC9EECF1EB8337400B74B59 /* BioAuthTests.xctest */,
+				CCC9EEDA1EB8337400B74B59 /* BioAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC9EEB81EB8337400B74B59 /* BioAuth */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9EEF01EB8345900B74B59 /* Classes */,
+				CCC9EEEC1EB833BD00B74B59 /* Controllers */,
+				CCC9EEBC1EB8337400B74B59 /* AppDelegate.h */,
+				CCC9EEBD1EB8337400B74B59 /* AppDelegate.m */,
+				CCC9EEC51EB8337400B74B59 /* Assets.xcassets */,
+				CCC9EECA1EB8337400B74B59 /* Info.plist */,
+				CCC9EEB91EB8337400B74B59 /* Supporting Files */,
+			);
+			path = BioAuth;
+			sourceTree = "<group>";
+		};
+		CCC9EEB91EB8337400B74B59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9EEBA1EB8337400B74B59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCC9EED21EB8337400B74B59 /* BioAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9EED31EB8337400B74B59 /* BioAuthTests.m */,
+				CCC9EED51EB8337400B74B59 /* Info.plist */,
+			);
+			path = BioAuthTests;
+			sourceTree = "<group>";
+		};
+		CCC9EEDD1EB8337400B74B59 /* BioAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9EEDE1EB8337400B74B59 /* BioAuthUITests.m */,
+				CCC9EEE01EB8337400B74B59 /* Info.plist */,
+			);
+			path = BioAuthUITests;
+			sourceTree = "<group>";
+		};
+		CCC9EEEC1EB833BD00B74B59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9EEED1EB8340400B74B59 /* JHKRZSignOnUIViewController.h */,
+				CCC9EEEE1EB8340400B74B59 /* JHKRZSignOnUIViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CCC9EEF01EB8345900B74B59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCC9EEF11EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.h */,
+				CCC9EEF21EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC9EEB51EB8337400B74B59 /* BioAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC9EEE31EB8337400B74B59 /* Build configuration list for PBXNativeTarget "BioAuth" */;
+			buildPhases = (
+				CCC9EEB21EB8337400B74B59 /* Sources */,
+				CCC9EEB31EB8337400B74B59 /* Frameworks */,
+				CCC9EEB41EB8337400B74B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioAuth;
+			productName = BioAuth;
+			productReference = CCC9EEB61EB8337400B74B59 /* BioAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC9EECE1EB8337400B74B59 /* BioAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC9EEE61EB8337400B74B59 /* Build configuration list for PBXNativeTarget "BioAuthTests" */;
+			buildPhases = (
+				CCC9EECB1EB8337400B74B59 /* Sources */,
+				CCC9EECC1EB8337400B74B59 /* Frameworks */,
+				CCC9EECD1EB8337400B74B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC9EED11EB8337400B74B59 /* PBXTargetDependency */,
+			);
+			name = BioAuthTests;
+			productName = BioAuthTests;
+			productReference = CCC9EECF1EB8337400B74B59 /* BioAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC9EED91EB8337400B74B59 /* BioAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC9EEE91EB8337400B74B59 /* Build configuration list for PBXNativeTarget "BioAuthUITests" */;
+			buildPhases = (
+				CCC9EED61EB8337400B74B59 /* Sources */,
+				CCC9EED71EB8337400B74B59 /* Frameworks */,
+				CCC9EED81EB8337400B74B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC9EEDC1EB8337400B74B59 /* PBXTargetDependency */,
+			);
+			name = BioAuthUITests;
+			productName = BioAuthUITests;
+			productReference = CCC9EEDA1EB8337400B74B59 /* BioAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC9EEAE1EB8337400B74B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jediHKRZ;
+				TargetAttributes = {
+					CCC9EEB51EB8337400B74B59 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					CCC9EECE1EB8337400B74B59 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCC9EEB51EB8337400B74B59;
+					};
+					CCC9EED91EB8337400B74B59 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCC9EEB51EB8337400B74B59;
+					};
+				};
+			};
+			buildConfigurationList = CCC9EEB11EB8337400B74B59 /* Build configuration list for PBXProject "BioAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC9EEAD1EB8337400B74B59;
+			productRefGroup = CCC9EEB71EB8337400B74B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC9EEB51EB8337400B74B59 /* BioAuth */,
+				CCC9EECE1EB8337400B74B59 /* BioAuthTests */,
+				CCC9EED91EB8337400B74B59 /* BioAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC9EEB41EB8337400B74B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC9EEC61EB8337400B74B59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9EECD1EB8337400B74B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9EED81EB8337400B74B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC9EEB21EB8337400B74B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC9EEEF1EB8340400B74B59 /* JHKRZSignOnUIViewController.m in Sources */,
+				CCC9EEF31EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m in Sources */,
+				CCC9EEBE1EB8337400B74B59 /* AppDelegate.m in Sources */,
+				CCC9EEBB1EB8337400B74B59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9EECB1EB8337400B74B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC9EED41EB8337400B74B59 /* BioAuthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC9EED61EB8337400B74B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC9EEDF1EB8337400B74B59 /* BioAuthUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC9EED11EB8337400B74B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC9EEB51EB8337400B74B59 /* BioAuth */;
+			targetProxy = CCC9EED01EB8337400B74B59 /* PBXContainerItemProxy */;
+		};
+		CCC9EEDC1EB8337400B74B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC9EEB51EB8337400B74B59 /* BioAuth */;
+			targetProxy = CCC9EEDB1EB8337400B74B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCC9EEE11EB8337400B74B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCC9EEE21EB8337400B74B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC9EEE41EB8337400B74B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BioAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fismobile.mbank.BioAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCC9EEE51EB8337400B74B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BioAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fismobile.mbank.BioAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCC9EEE71EB8337400B74B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BioAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fismobile.mbank.BioAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioAuth.app/BioAuth";
+			};
+			name = Debug;
+		};
+		CCC9EEE81EB8337400B74B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BioAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fismobile.mbank.BioAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioAuth.app/BioAuth";
+			};
+			name = Release;
+		};
+		CCC9EEEA1EB8337400B74B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BioAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fismobile.mbank.BioAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BioAuth;
+			};
+			name = Debug;
+		};
+		CCC9EEEB1EB8337400B74B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BioAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fismobile.mbank.BioAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BioAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC9EEB11EB8337400B74B59 /* Build configuration list for PBXProject "BioAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC9EEE11EB8337400B74B59 /* Debug */,
+				CCC9EEE21EB8337400B74B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC9EEE31EB8337400B74B59 /* Build configuration list for PBXNativeTarget "BioAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC9EEE41EB8337400B74B59 /* Debug */,
+				CCC9EEE51EB8337400B74B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCC9EEE61EB8337400B74B59 /* Build configuration list for PBXNativeTarget "BioAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC9EEE71EB8337400B74B59 /* Debug */,
+				CCC9EEE81EB8337400B74B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCC9EEE91EB8337400B74B59 /* Build configuration list for PBXNativeTarget "BioAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC9EEEA1EB8337400B74B59 /* Debug */,
+				CCC9EEEB1EB8337400B74B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC9EEAE1EB8337400B74B59 /* Project object */;
+}
