@@ -24,9 +24,9 @@
     
     self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0,0,[UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height)];
     self.signOnViewController = [JHKRZSignOnUIViewController new];
-    //    self.navController = [[UINavigationController alloc] initWithRootViewController:self.signOnViewController];
+        self.navController = [[UINavigationController alloc] initWithRootViewController:self.signOnViewController];
     [self.window setRootViewController:self.signOnViewController];
-    [self.window addSubview:self.signOnViewController.view];
+    [self.window addSubview:self.navController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

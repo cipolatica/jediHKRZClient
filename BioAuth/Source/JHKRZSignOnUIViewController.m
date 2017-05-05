@@ -8,8 +8,11 @@
 
 #import "JHKRZSignOnUIViewController.h"
 #import "UIImage+UIImage_JHKRZ.h"
+#import "JHKRZAccountsUIViewController.h"
 
 @interface JHKRZSignOnUIViewController ()
+
+@property (nonatomic, strong) JHKRZCameraUIViewController *cameraVC;
 
 @end
 
@@ -18,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor colorWithRed:19/255.0 green:32/255.0 blue:41/255.0 alpha:1]];
+    [self.navigationController setNavigationBarHidden:YES];
     
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     CGFloat yCenter = 160.0;
@@ -67,8 +71,23 @@
     
     UIButton *b3 = [self createBioButtonWithFrame:CGRectMake(width-(75 + height), 575, height-1, height-1)];
     [b3 setImage:[[UIImage imageNamed:@"selfie"] tintedImageWithColor:imageColor] forState:UIControlStateNormal];
+    [b3 addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
     b3.imageEdgeInsets = UIEdgeInsetsMake(imageInset, imageInset, imageInset, imageInset);
     [self.view addSubview:b3];
+}
+
+- (void) buttonPressed:(UIButton *) button {
+    UINavigationController *c = self.navigationController;
+    self.cameraVC = [JHKRZCameraUIViewController new];
+    self.cameraVC.myDelegate = self;
+    [self.navigationController presentViewController:self.cameraVC animated:YES completion:nil];
+//    [self.navigationController pushViewController:self.cameraVC animated:YES];
+//    [self.navigationController presentViewController:self.cameraVC animated:YES completion:nil];
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES];
 }
 
 - (void) signOnTapped {
@@ -138,6 +157,12 @@
     [circle setBackgroundColor:color];
     [circle setAlpha:alpha];
     [self.view addSubview:circle];
+}
+
+- (void) viewControllerDismissedWithData:(id)data {
+    
+    JHKRZAccountsUIViewController *accountsCV = [[JHKRZAccountsUIViewController alloc] initWithData:data];
+    [self.navigationController pushViewController:accountsCV animated:NO];
 }
 
 @end

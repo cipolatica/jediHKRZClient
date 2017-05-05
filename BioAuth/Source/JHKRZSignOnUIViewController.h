@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JHKRZCameraUIViewController.h"
 
-@interface JHKRZSignOnUIViewController : UIViewController
+@interface JHKRZSignOnUIViewController : UIViewController <JHKRZCameraUIViewControllerDelegate>
 
 @end

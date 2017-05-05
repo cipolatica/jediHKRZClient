@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC417BCF1EB8459600306EBA /* JHKRZCameraUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC417BCE1EB8459600306EBA /* JHKRZCameraUIViewController.m */; };
 		CCC9EEBB1EB8337400B74B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEBA1EB8337400B74B59 /* main.m */; };
 		CCC9EEBE1EB8337400B74B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEBD1EB8337400B74B59 /* AppDelegate.m */; };
 		CCC9EEC61EB8337400B74B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC9EEC51EB8337400B74B59 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		CCC9EEDF1EB8337400B74B59 /* BioAuthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEDE1EB8337400B74B59 /* BioAuthUITests.m */; };
 		CCC9EEEF1EB8340400B74B59 /* JHKRZSignOnUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEEE1EB8340400B74B59 /* JHKRZSignOnUIViewController.m */; };
 		CCC9EEF31EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEF21EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m */; };
+		CCE54C0C1EBD162D00620681 /* JHKRZAccountsUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE54C0B1EBD162D00620681 /* JHKRZAccountsUIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC417BCD1EB8459600306EBA /* JHKRZCameraUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHKRZCameraUIViewController.h; path = Source/JHKRZCameraUIViewController.h; sourceTree = "<group>"; };
+		CC417BCE1EB8459600306EBA /* JHKRZCameraUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHKRZCameraUIViewController.m; path = Source/JHKRZCameraUIViewController.m; sourceTree = "<group>"; };
 		CCC9EEB61EB8337400B74B59 /* BioAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC9EEBA1EB8337400B74B59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCC9EEBC1EB8337400B74B59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 		CCC9EEEE1EB8340400B74B59 /* JHKRZSignOnUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHKRZSignOnUIViewController.m; path = Source/JHKRZSignOnUIViewController.m; sourceTree = "<group>"; };
 		CCC9EEF11EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+UIImage_JHKRZ.h"; path = "Source/UIImage+UIImage_JHKRZ.h"; sourceTree = "<group>"; };
 		CCC9EEF21EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+UIImage_JHKRZ.m"; path = "Source/UIImage+UIImage_JHKRZ.m"; sourceTree = "<group>"; };
+		CCE54C0A1EBD162D00620681 /* JHKRZAccountsUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHKRZAccountsUIViewController.h; path = Source/JHKRZAccountsUIViewController.h; sourceTree = "<group>"; };
+		CCE54C0B1EBD162D00620681 /* JHKRZAccountsUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHKRZAccountsUIViewController.m; path = Source/JHKRZAccountsUIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,10 @@
 			children = (
 				CCC9EEED1EB8340400B74B59 /* JHKRZSignOnUIViewController.h */,
 				CCC9EEEE1EB8340400B74B59 /* JHKRZSignOnUIViewController.m */,
+				CC417BCD1EB8459600306EBA /* JHKRZCameraUIViewController.h */,
+				CC417BCE1EB8459600306EBA /* JHKRZCameraUIViewController.m */,
+				CCE54C0A1EBD162D00620681 /* JHKRZAccountsUIViewController.h */,
+				CCE54C0B1EBD162D00620681 /* JHKRZAccountsUIViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -222,7 +232,7 @@
 				TargetAttributes = {
 					CCC9EEB51EB8337400B74B59 = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					CCC9EECE1EB8337400B74B59 = {
 						CreatedOnToolsVersion = 8.3;
@@ -288,6 +298,8 @@
 			files = (
 				CCC9EEEF1EB8340400B74B59 /* JHKRZSignOnUIViewController.m in Sources */,
 				CCC9EEF31EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m in Sources */,
+				CCE54C0C1EBD162D00620681 /* JHKRZAccountsUIViewController.m in Sources */,
+				CC417BCF1EB8459600306EBA /* JHKRZCameraUIViewController.m in Sources */,
 				CCC9EEBE1EB8337400B74B59 /* AppDelegate.m in Sources */,
 				CCC9EEBB1EB8337400B74B59 /* main.m in Sources */,
 			);
@@ -419,10 +431,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Drew Manning (T58EC6S83F)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BioAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fismobile.mbank.BioAuth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfoundry.enterprise.smartphone.ios.adhoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mFoundry_Internal_Enterprise_Dev;
 			};
 			name = Debug;
 		};
@@ -430,10 +446,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Drew Manning (T58EC6S83F)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BioAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fismobile.mbank.BioAuth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfoundry.enterprise.smartphone.ios.adhoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mFoundry_Internal_Enterprise_Dev;
 			};
 			name = Release;
 		};
@@ -502,6 +522,7 @@
 				CCC9EEE51EB8337400B74B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC9EEE61EB8337400B74B59 /* Build configuration list for PBXNativeTarget "BioAuthTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +531,7 @@
 				CCC9EEE81EB8337400B74B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC9EEE91EB8337400B74B59 /* Build configuration list for PBXNativeTarget "BioAuthUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +540,7 @@
 				CCC9EEEB1EB8337400B74B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
