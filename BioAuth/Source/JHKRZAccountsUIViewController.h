@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JHKRZAccountsUIViewController : UIViewController
+@interface JHKRZAccountsUIViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic) UITableView *tableView;
 
 - (instancetype) initWithData:(id)data;
 

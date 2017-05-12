@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC2EEFA11EC619A80014202A /* JHKRZAccountsUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2EEFA01EC619A80014202A /* JHKRZAccountsUITableViewCell.m */; };
 		CC417BCF1EB8459600306EBA /* JHKRZCameraUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC417BCE1EB8459600306EBA /* JHKRZCameraUIViewController.m */; };
 		CCC9EEBB1EB8337400B74B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEBA1EB8337400B74B59 /* main.m */; };
 		CCC9EEBE1EB8337400B74B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC9EEBD1EB8337400B74B59 /* AppDelegate.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC2EEF9F1EC619A80014202A /* JHKRZAccountsUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHKRZAccountsUITableViewCell.h; path = Source/JHKRZAccountsUITableViewCell.h; sourceTree = "<group>"; };
+		CC2EEFA01EC619A80014202A /* JHKRZAccountsUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHKRZAccountsUITableViewCell.m; path = Source/JHKRZAccountsUITableViewCell.m; sourceTree = "<group>"; };
 		CC417BCD1EB8459600306EBA /* JHKRZCameraUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHKRZCameraUIViewController.h; path = Source/JHKRZCameraUIViewController.h; sourceTree = "<group>"; };
 		CC417BCE1EB8459600306EBA /* JHKRZCameraUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHKRZCameraUIViewController.m; path = Source/JHKRZCameraUIViewController.m; sourceTree = "<group>"; };
 		CCC9EEB61EB8337400B74B59 /* BioAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +155,8 @@
 				CC417BCE1EB8459600306EBA /* JHKRZCameraUIViewController.m */,
 				CCE54C0A1EBD162D00620681 /* JHKRZAccountsUIViewController.h */,
 				CCE54C0B1EBD162D00620681 /* JHKRZAccountsUIViewController.m */,
+				CC2EEF9F1EC619A80014202A /* JHKRZAccountsUITableViewCell.h */,
+				CC2EEFA01EC619A80014202A /* JHKRZAccountsUITableViewCell.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				CCC9EEF31EB8346E00B74B59 /* UIImage+UIImage_JHKRZ.m in Sources */,
 				CCE54C0C1EBD162D00620681 /* JHKRZAccountsUIViewController.m in Sources */,
 				CC417BCF1EB8459600306EBA /* JHKRZCameraUIViewController.m in Sources */,
+				CC2EEFA11EC619A80014202A /* JHKRZAccountsUITableViewCell.m in Sources */,
 				CCC9EEBE1EB8337400B74B59 /* AppDelegate.m in Sources */,
 				CCC9EEBB1EB8337400B74B59 /* main.m in Sources */,
 			);

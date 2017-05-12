@@ -21,11 +21,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-20)];
+    [self.navigationController setNavigationBarHidden:NO];
     [self.view setBackgroundColor:[UIColor greenColor]];
     [self setSourceType:UIImagePickerControllerSourceTypeCamera];
     [self setCameraDevice:UIImagePickerControllerCameraDeviceFront];
     [self setDelegate:self];
     // Do any additional setup after loading the view.
+}
+
+- (BOOL) prefersStatusBarHidden {
+    return YES;
+}
+
+- (UIViewController *)childViewControllerForStatusBarHidden {
+    return nil;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -66,7 +75,9 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         sleep(1);
         dispatch_async(dispatch_get_main_queue(), ^{
-            [self.myDelegate viewControllerDismissedWithData:[info objectForKey:@"UIImagePickerControllerOriginalImage"]];
+            UIImage *picture = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+            UIImage *flippedImage = [UIImage imageWithCGImage:picture.CGImage scale:picture.scale orientation:UIImageOrientationLeftMirrored];
+            [self.myDelegate viewControllerDismissedWithData:flippedImage];
             [self dismissViewControllerAnimated:YES completion:nil];
         });
     });
